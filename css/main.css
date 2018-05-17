@@ -1,0 +1,282 @@
+/*estilo que se aplicará al body*/
+body {
+	background-color: #1D8DC2;
+	font-family: sans-serif;
+	margin: 0 auto;
+	padding: 0;
+}
+/*estilo de las imagenes*/
+.tables {
+	background-color: #3399FF;
+    border: 1px solid red;
+    border-radius: 5px;
+    font-size: 20px;
+    float: left;
+    height: 30px;
+    margin-left: 15px;
+    margin-top: 10px;
+    width: 125px;
+}
+/*iconos del lado derecho de pantalla*/
+.plus,
+.clock,
+.bell,
+.user {
+  background: #66A3C1;
+  border-radius: 8px;
+	float: right;
+	height: 30px;
+	margin: 3px;
+  width: 30px;
+}
+
+/*botones dle lado derecho de la pantalla*/
+.right-buttons {
+  float: right;
+  right: 20px;
+  top: 10px;
+}
+.right-buttons:hover{
+
+}
+
+/*Area de text desactivada*/
+.textAreaOff {
+	display: none;
+	font-size: 14px;
+	margin-left: 10px;
+	margin-top: 5px;
+	border: none;
+	outline: none;
+}
+
+/*texto de reto de código*/
+.title-board {
+  color: #fff;
+  display: inline-block;
+  font-weight: bold;
+  margin:15px 20px;
+}
+
+/*barra superior*/
+.top-bar {
+  background: #147AA7;
+  height: 50px;
+  text-align: center;
+}
+
+.title {
+	padding: 10px;
+}
+
+.contenedor {
+	padding: 10px;
+}
+.contedor p {
+	padding: 10px;
+}
+#button,
+.btnn{
+	/*background: red;
+	color: white;
+	font-weight: bold;
+	margin-top: 5px;
+	margin-bottom: 10px;*/
+  background: #6cc055;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 10px;
+  outline: none;
+}
+
+#button.boton {
+	margin: 10px;
+}
+
+#button.boton:hover {
+	background: #427a33;
+}
+
+#list {
+	background: #eee;
+	border-radius: 3px;
+	font-size: 16px;
+	margin-left: 10px;
+	margin-top: 10px;
+	padding-bottom: 10px;
+	width: 190px;
+	border: none;
+	outline: none;
+}
+
+/*Estilo de la lista cuando se active*/
+.addOn{
+		background:  #147AA7;
+		color:#fff;
+		cursor: pointer;
+		display: block;
+		font-size: 16px;
+		height: 30px;
+		margin-left: 10px;
+		padding: 10px;
+    width: 200px;
+}
+
+.addOn:hover {
+	background: #004872;
+}
+
+/*Lista desactivada*/
+.addOff{
+	  background: #C6567E;
+	  color:#fff;
+		display:none;
+		font-size: 16px;
+		height: 30px;
+		margin-left: 10px;
+    width: 200px;
+}
+
+/* Estilo de área de texto*/
+.areaText {
+	display: block;
+	width: 270px;
+	font-size: 14px;
+	margin-left: 10px;
+	margin-top: 5px;
+	border: none;
+	outline: none;
+}
+
+/*botón de tableros e icono de trello*/
+.boards {
+  background: #66A3C1;
+	border-radius: 8px;
+	color: white;
+  float: left;
+  height: 30px;
+  width: 120px;
+}
+
+/*botón para añadir tareas*/
+.bttn {
+	/*background-color:#519839;
+	color:#fff;
+	font-weight: bold;
+	margin-left: 10px;
+	margin-top:  5px;
+	margin-bottom: 5px;*/
+	background: #6cc055;
+	border: none;
+	border-radius: 5px;
+	color: #fff;
+	cursor: pointer;
+	font-weight: bold;
+	padding: 10px;
+	outline: none;
+	margin: 10px;
+}
+
+.bttn:hover {
+	background: #427a33;
+}
+
+/*botón desactivado*/
+.buttonOff {
+	background-color:#A5E0FC;
+	color:#fff;
+	display: none;
+	margin-left: 10px;
+	margin-top: 5px;
+	padding-bottom: 5px;
+	padding-top: 5px;
+}
+
+.contenedor {
+	font-size: 14px;
+}
+
+/*iconos de font awesome usados*/
+.fa.fa-search{
+	margin-left: 150px;
+}
+
+.fas.fa-star,
+.fa.fa-lock,
+.lock{
+	color: white;
+	margin: 7px;
+}
+
+.fab.fa-trello {
+	color: white;
+}
+.fa.fa-bell,
+.fa.fa-info-circle,
+.fa.fa-search,
+.fa.fa-plus,
+.fas.fa-user-secret{
+	margin-top: 7px;
+	color: white;
+}
+
+.inline {
+	display: inline-block;
+	float: left;
+}
+
+/*botones del lado izquierdo*/
+.left-buttons{
+  float: left;
+  left: 20px;
+  margin-top: 10px;
+}
+/*area de buscador*/
+.lens {
+  background: #66A3C1;
+  border-radius: 8px;
+	float: left;
+  height: 30px;
+	margin-left: 7px;
+  width: 180px;
+}
+/*texto de añadir una trjeta*/
+.link {
+	background: #C4C9CC;
+	font-size: 16px;
+	margin: 4px;
+	padding: 4px;
+	width: 92%;
+}
+
+/*Lista activa*/
+.listOn {
+	background: #e5e7e6;
+	  height: auto;
+	  width: 300px;
+	  border-radius: 8px;
+	  margin: 20px;
+	  border: none;
+	  outline: none;
+		overflow: hidden;
+
+}
+
+/*Lista desctivada*/
+.listOff {
+	background: #ddd;
+	display: none;
+	margin-left: 10px;
+	overflow: hidden;
+	width: 200px;
+}
+
+/*tarjetas ocultas*/
+.newLinkTarjetaOff {
+	display:none;
+	font-family: arial;
+	font-size: 16px;
+}

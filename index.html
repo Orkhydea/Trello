@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Trello</title>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+  <!--Unión con la hoja de estlos de css-->
+  <link rel="stylesheet" href="css/main.css">
+  <!--Unimos con la hoja de estilos de font awesome para usar iconos de la página-->
+
+</head>
+
+<body>
+
+  <nav>
+    <!--Área de la barra superior de la página-->
+    <div class="top-bar">
+      <span class="trello"><i class="fab fa-trello">TRELLO</i></span>
+      <!--Este div con tiene las áreas que van a la izquierda de la pantalla principal-->
+      <div class="left-buttons">
+        <span class="boards"><i class="fab fa-trello" aria-hidden="true"></i>  Tableros</span>
+        <span class="lens"><i class="fa fa-search" aria-hidden="true"></i></span>
+      </div>
+      <!--Este div contiene los botones que aparecen en el lado derecho de la pantalla-->
+      <div class="right-buttons">
+        <span class="user"><i class="fas fa-user-secret" aria-hidden="true"></i></span>
+        <span class="bell"><i class="fa fa-bell" aria-hidden="true"></i></span>
+        <span class="clock"><i class="fa fa-info-circle" aria-hidden="true"></i></span>
+        <span class="plus"><i class="fa fa-plus" aria-hidden="true"></i></span>
+      </div>
+    </div>
+  </nav>
+
+  <!--Área que contiene el titulo de tablero e iconos secundarios-->
+  <div class="title-board">Tablero - Reto de código</div>
+  <span class="star"><i class="fas fa-star" aria-hidden="true"></i></span>
+  <span class="lock"><i class="fa fa-lock" aria-hidden="true"></i>Privado</span>
+
+  <!--Sección principal de las listas y tareas-->
+
+  <section id="principal">
+    <section id="formBox" class="inline">
+      <div class="formulario">
+
+        <!--Caja para añadir la primera lista-->
+
+        <div id="boxList" class="addOn">
+          <span id="addList">Añadir una Lista...</span>
+        </div>
+
+        <!--Input que aparecerá para introducir las listas-->
+
+        <div id="container" class="listOff">
+          <div>
+            <input type="text" id="list" placeholder="Añadir una lista...">
+          </div>
+          <div>
+            <!--Botón ára guardar cambios en las listas creadas-->
+            <button id="button" class="boton" type="button">Guardar</button>
+            <button id="trash" type="button"><i class="far fa-trash-alt"></i></button>
+          </div>
+        </div>
+      </div>
+    </section>
+  </section>
+  <!--Unión de html con js-->
+  <script type="text/javascript" src="js/app.js"></script>
+
+</body>
+
+</html>
