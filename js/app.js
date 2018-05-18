@@ -1,10 +1,9 @@
 alert("Bienveidos a mi replica de trello :)");
-/*se crea addList para generar una nueva lista*/
+/*se crea addList para generar una Tablero*/
 var addList = document.getElementById('addList');
 
 addList.addEventListener('click', function() {
-  /*se llama a los elementos que contendrá nuestra nueva lista
-  de tareas*/
+  /*se llama a los elementos que contendrá nuestro tablero*/
   document.getElementById('boxList').className = 'addOff';
   document.getElementById('container').className = 'listOn';
   document.getElementById('list').focus();
@@ -12,6 +11,7 @@ addList.addEventListener('click', function() {
 })
 
 /*aqui iran los elementos de las listas creadas*/
+
 var button = document.getElementById('button');
 
 button.addEventListener('click', function() {
@@ -23,7 +23,7 @@ button.addEventListener('click', function() {
   var titleDiv = document.createElement('div');
   titleDiv.appendChild(newTitle);
   titleDiv.className = 'title';
-  /*con este se añadiran nuevas tarjetas*/
+  /* se añadiran nuevas tarjetas*/
   var newlink = document.createElement('a');
   newlink.setAttribute('href', '#');
   newlink.innerHTML = 'Añadir una Tarjeta';
@@ -93,8 +93,7 @@ button.addEventListener('click', function() {
 
 
 })
-//var trash = document.getElementById('id');
-
-//trash.addEventListener('click', function() {
- //titleDiv.remove(newTitle);
-//};
+var trash = document.getElementById('trash');
+trash.addEventListener('click', function() {
+  container.remove(listOff);
+  });
